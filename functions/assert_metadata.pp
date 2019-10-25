@@ -40,7 +40,7 @@ function simplib::assert_metadata (
 ) {
 
   $_default_options = {
-    'enable'    => true,
+    'enable'    => false,
     'os'        => {
       'validate' => true,
       'options'  => {
